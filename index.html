@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SOLMEC S.A.S. · Ingeniería mecatrónica</title>
+  <meta name="description" content="SOLMEC S.A.S., ingeniería mecatrónica: diseño, suministro, montaje y mantenimiento de sistemas eléctricos, automatización y procesos para petróleo y gas y la industria. 16 años de experiencia.">
+  <meta name="theme-color" content="#0a1f26">
+  <link rel="icon" type="image/png" href="/media/logo-solmec.png">
+  <link rel="apple-touch-icon" href="/media/logo-solmec.png">
+  <!-- Vista previa al compartir el enlace (WhatsApp, LinkedIn, correo).
+       Cuando tengan dominio, cambien og:image por la dirección completa, p. ej. https://solmec.com.co/media/genset.jpg -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:site_name" content="SOLMEC S.A.S.">
+  <meta property="og:title" content="SOLMEC S.A.S. · Ingeniería mecatrónica">
+  <meta property="og:description" content="Diseño, suministro, montaje y mantenimiento de sistemas eléctricos, automatización y procesos. 16 años de experiencia.">
+  <meta property="og:image" content="media/genset.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="claude:viewport-fit-sides" content="cover">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EngineeringService",
+    "name": "SOLMEC S.A.S.",
+    "alternateName": "Soluciones Mecatrónicas SOLMEC S.A.S.",
+    "taxID": "901624599-6",
+    "description": "Diseño, suministro, instalación, montaje y mantenimiento de sistemas eléctricos, automatización industrial, generación y procesos para petróleo y gas, industria y proyectos comerciales.",
+    "areaServed": {
+      "@type": "Country",
+      "name": "Colombia"
+    },
+    "knowsAbout": [
+      "Generación, distribución y potencia eléctrica",
+      "Automatización industrial PLC, HMI, control y robótica",
+      "Mecánica industrial, hidráulica y neumática",
+      "Subestaciones eléctricas media y baja tensión",
+      "Grupos electrógenos, grupos halógenos y transferencias automáticas ATS",
+      "Energía renovable y sistemas solares fotovoltaicos on-grid y off-grid",
+      "Tuberías industriales SCH 80 y SCH 40 y soldaduras especiales certificadas TIG",
+      "Mantenimiento e instalación de calderas pirotubulares y acuotubulares",
+      "Topografía de alta precisión, GNSS y fotogrametría con Dron RTK",
+      "Domótica, inmótica y circuito cerrado de televisión (CCTV IP)",
+      "Software industrial y gemelos digitales"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+57-310-350-1532",
+        "contactType": "sales",
+        "areaServed": "CO",
+        "availableLanguage": "Spanish"
+      }
+    ]
+  }
+  </script>
+  <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+  <header class="top dark" id="top">
+    <div class="wrap bar">
+      <a class="brand" href="#inicio" id="brand"></a>
+      <nav class="nav" id="nav" aria-label="Principal"></nav>
+      <div class="bar-end">
+        <button class="btn ghost sm" id="print-btn" type="button" title="Guardar o imprimir portafolio en PDF (A4 horizontal)">Dossier PDF</button>
+        <a class="btn sm" href="#contacto" id="navcta">Cotizar</a>
+        <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="drawer" aria-label="Abrir menú"><span></span></button>
+      </div>
+    </div>
+    <div class="mega" id="mega" hidden></div>
+    <div class="drawer" id="drawer" hidden></div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero dark">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow" id="h-eyebrow">Ingeniería mecatrónica · Automatización · Energía</p>
+          <h1 id="h-title">Ingeniería mecatrónica para operaciones que no pueden detenerse.</h1>
+          <p class="lead" id="h-text">Diseño, suministro, instalación, montaje y mantenimiento de sistemas eléctricos, de automatización y de procesos para el sector de petróleo y gas, la industria y proyectos comerciales y residenciales.</p>
+          <div class="sector-tags" id="h-tags"></div>
+          <ul class="hero-specs" id="h-specs" aria-label="Alcance técnico y especialidades"></ul>
+          <div class="cta" id="h-cta"></div>
+          <div class="hero-meta" id="h-meta"></div>
+        </div>
+        <figure class="twin" id="twin">
+          <div class="twin-strip" id="twin-strip"></div>
+          <figcaption class="twin-head" id="twin-head">
+            <span class="dot"></span><b id="twin-title"></b><span id="twin-status"></span>
+          </figcaption>
+          <div class="twin-tabs" id="twin-tabs"></div>
+          <div id="twin-body">
+            <div class="twin-view"><canvas id="twin-canvas" role="img"></canvas></div>
+            <div class="twin-ctrl" id="twin-ctrl" aria-label="Controles interactivos del simulador"></div>
+            <div class="twin-read" id="twin-read"></div>
+            <div class="twin-foot">
+              <canvas id="twin-trend" aria-hidden="true"></canvas>
+              <p class="twin-note" id="twin-note"></p>
+            </div>
+          </div>
+          <div class="twin-video" id="twin-video" hidden></div>
+        </figure>
+      </div>
+    </section>
+
+    <section class="sec" id="resumen">
+      <div class="wrap exec">
+        <div class="exec-text" id="resumen-text"></div>
+        <div class="figs" id="resumen-figs"></div>
+        <div class="pillars" id="resumen-pillars"></div>
+      </div>
+    </section>
+
+    <section class="sec alt" id="capacidades">
+      <div class="wrap">
+        <div class="head" id="capacidades-head"></div>
+        <div class="carousel" role="region" aria-roledescription="carrusel" aria-label="Capacidades estratégicas">
+          <div class="car-track" id="car-track" tabindex="0"></div>
+          <div class="car-ctrl">
+            <span class="car-count" id="car-count" aria-live="polite"></span>
+            <div class="car-dots" id="car-dots"></div>
+            <div class="car-btns">
+              <button class="car-btn" id="car-prev" type="button" aria-label="Capacidad anterior">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+              </button>
+              <button class="car-btn" id="car-next" type="button" aria-label="Capacidad siguiente">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="sectores">
+      <div class="wrap">
+        <div class="head" id="sectores-head"></div>
+        <div class="panels" id="sectores-body"></div>
+      </div>
+    </section>
+
+    <section class="sec alt" id="servicios">
+      <div class="wrap">
+        <div class="head" id="servicios-head"></div>
+        <div id="servicios-body"></div>
+      </div>
+    </section>
+
+    <section class="sec dark" id="casos">
+      <div class="wrap">
+        <div class="head" id="casos-head"></div>
+        <div class="cases-filter" id="casos-filter" role="tablist" aria-label="Filtrar casos por sector"></div>
+        <div class="cases-grid" id="casos-body"></div>
+      </div>
+    </section>
+
+    <section class="sec" id="hseq">
+      <div class="wrap">
+        <div class="head" id="hseq-head"></div>
+        <div class="hseq-grid" id="hseq-body"></div>
+        <div class="hseq-strip" id="hseq-strip"></div>
+      </div>
+    </section>
+
+    <section class="sec dark" id="obras">
+      <div class="wrap">
+        <div class="head" id="obras-head"></div>
+        <div class="vgrid" id="obras-body"></div>
+      </div>
+    </section>
+
+    <section class="sec alt" id="marcas">
+      <div class="wrap">
+        <div class="head" id="marcas-head"></div>
+        <div class="brand-carousel" id="marcas-carousel" role="region" aria-roledescription="carrusel" aria-label="Plataformas y fabricantes integrados"></div>
+        <div class="brands" id="marcas-body"></div>
+        <p class="brands-note" id="marcas-note"></p>
+      </div>
+    </section>
+
+    <section class="sec dark" id="software">
+      <div class="wrap">
+        <div class="head" id="software-head"></div>
+        <div class="two" id="software-body"></div>
+      </div>
+    </section>
+
+    <section class="sec" id="metodo">
+      <div class="wrap">
+        <div class="head" id="metodo-head"></div>
+        <div class="steps" id="metodo-body"></div>
+      </div>
+    </section>
+
+    <section class="sec dark" id="contacto">
+      <div class="wrap contact">
+        <div class="contact-col">
+          <p class="lbl" id="c-lbl"></p>
+          <h2 id="c-title" style="margin-top:16px"></h2>
+          <p class="lead" id="c-text"></p>
+          <div class="cta" id="c-cta"></div>
+          <ul class="clist" id="c-list"></ul>
+        </div>
+        <div class="rfq-box" id="c-rfq"></div>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="vmodal dark" id="vmodal" aria-label="Video de obra">
+    <div class="vmodal-box">
+      <button class="vmodal-close" id="vmodal-close" type="button" aria-label="Cerrar video">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <video id="vmodal-video" controls playsinline></video>
+      <p class="vmodal-cap" id="vmodal-cap"></p>
+    </div>
+  </dialog>
+
+  <footer class="dark"><div class="wrap" id="foot"></div></footer>
+  <a class="wa-fab" id="wa-fab" href="https://wa.me/573103501532" target="_blank" rel="noopener" aria-label="Atención inmediata por WhatsApp"></a>
+  <button class="switch" id="switch" type="button" hidden></button>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
